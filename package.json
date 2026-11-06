@@ -1,0 +1,10 @@
+{
+  "name": "anakin-pipefy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pipefy App: scrape a web page into a card with Anakin. Static site in docs/, no build step.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/anakin.test.js"
+  }
+}

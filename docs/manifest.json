@@ -1,0 +1,10 @@
+{
+  "name": "Anakin Web Scraper",
+  "short_description": "Scrape a web page into a Pipefy card as clean Markdown, using your Anakin API key.",
+  "description": "Anakin Web Scraper turns a public web page into clean Markdown inside a Pipefy card. Paste a URL, or use one already on the card, preview the result, then save it to a Long text field so your automations and teammates can use it.\n\n**What you need:** an Anakin API key from https://anakin.io/dashboard. Anakin has a free tier. Each user connects their own key, which is stored with private visibility.\n\n**Pipefy data used:** the app reads the current card's field values to suggest a URL and the pipe's field list to offer save targets. It writes only to the Long text field you pick, and only when you click Save. The URL you scrape is sent to api.anakin.io; no card data is.",
+  "icon": "./icon.svg",
+  "author": "Anakin",
+  "init_url": "./index.html",
+  "screenshots": ["./screenshots/card-tab.png"],
+  "features": ["card-tab", "card-buttons"]
+}
